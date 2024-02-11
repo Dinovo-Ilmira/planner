@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/planner.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Планировщик задач</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Введите задачу">
+            <button id="addTaskBtn">Добавить</button>
+        </div>
+        <div class="task-list">
+            <h2>Список задач</h2>
+            <ul id="taskList"></ul>
+            <button id="clearListBtn" disabled>Очистить список</button>
+        </div>
+    </div>
+    
+<script src="./planner.js"></script>
+</body>
+</html>
